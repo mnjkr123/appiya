@@ -6,22 +6,22 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
-import blogdata from "./data/blogdata.json";
-import Singleblogdata from "./data/single-blogdata.json";
-import Footerdata from "./data/footerdata.json";
+import blogdata from "../src/data/blogdata.json";
+import Singleblogdata from "../src/data/single-blogdata.json";
+import Footerdata from "../src/data/footerdata.json";
 
-import Home from "./components/Home";
-import Header from "./components/components-global/Header";
-import Footer from "./components/components-global/Footer";
-import Blogfull from "./components/components-blog/Blogfull";
-import Blog2col from "./components/components-blog/blog-2-col";
-import Blog3col from "./components/components-blog/blog-3-col";
-import Blogfullleftsidebar from "./components/components-blog/blog-full-left-sidebar";
-import Blogfullrightsidebar from "./components/components-blog/blog-full-right-sidebar";
-import Singleblog from "./components/components-blog/single-blog";
-import Singleleftsidebar from "./components/components-blog/single-left-sidebar";
-import Singlerightsidebar from "./components/components-blog/single-right-sidebar";
-import ScrollToTop from "./components/components-global/ScrollToTop";
+import Home from "../src/components/Home";
+import Header from "../src/components/components-global/Header";
+import Footer from "../src/components/components-global/Footer";
+import Blogfull from "../src/components/components-blog/Blogfull";
+import Blog2col from "../src/components/components-blog/blog-2-col";
+import Blog3col from "../src/components/components-blog/blog-3-col";
+import Blogfullleftsidebar from "../src/components/components-blog/blog-full-left-sidebar";
+import Blogfullrightsidebar from "../src/components/components-blog/blog-full-right-sidebar";
+import Singleblog from "../src/components/components-blog/single-blog";
+import Singleleftsidebar from "../src/components/components-blog/single-left-sidebar";
+import Singlerightsidebar from "../src/components/components-blog/single-right-sidebar";
+import ScrollToTop from "../src/components/components-global/ScrollToTop";
 
 class Root extends Component {
   render() {
